@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroList } from '../heroe/HeroList'
+import { HeroList } from '../hero/HeroList'
 
 export const DcScreen = () => {
     return (

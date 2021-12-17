@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Navbar } from "../components/ui/NavBar";
 import { MarvelScreen } from '../components/marvel/MarvelScreen';
 import { DcScreen } from '../components/dc/DcScreen';
-import { HeroeScreen } from '../components/heroe/HeroeScreen';
+import { HeroeScreen } from '../components/hero/HeroeScreen';
 import { SearchScreen } from '../components/search/SearchScreen';
 
 export const DashBoardRoutes = () => {
@@ -15,7 +15,7 @@ export const DashBoardRoutes = () => {
                     <Route path='marvel' element={<MarvelScreen />} />
                     <Route path='dc' element={<DcScreen />} />
                     <Route path='search' element={<SearchScreen />} />
-                    <Route path='heroe/:ID' element={<HeroeScreen />} />
+                    <Route path='hero/:ID' element={<HeroeScreen />} />
                 </Routes>
             </div>
             
