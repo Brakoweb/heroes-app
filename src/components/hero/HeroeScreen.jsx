@@ -22,13 +22,13 @@ export const HeroeScreen = () => {
     const imagePath = `/assets/${hero.id}.jpg`;
 
     const handleReturn = () =>{
-        setAnimation({
-            img: 'animate__fadeOutLeft',
-            content: 'animate__fadeOut'
-        });
-        setTimeout(() => {
-          navigate(-1);  
-        }, 300);
+        // setAnimation({
+        //     img: 'animate__fadeOutLeft',
+        //     content: 'animate__fadeOut'
+        // });
+        //setTimeout(() => {
+            navigate(-1)  
+        //}, 300);
     }
     return (
         <div className='row mt-5'>
